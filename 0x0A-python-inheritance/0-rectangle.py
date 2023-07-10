@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-"""
-Defines an empty Rectangle class.
-"""
+"""Defines available attributes/methods of an object."""
 
 
-class Rectangle:
-    """Empty Rectangle class."""
-    pass
+def lookup(obj):
+    """Return a list of available attributes."""
+    return (dir(obj))
